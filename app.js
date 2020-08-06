@@ -71,7 +71,21 @@ if(command === "list"){
     });
 }
 
+if (command === "show") {
+    // Print todo
+    console.log((Todo.show(yargs.index)));
+}
 
+if (command == "remove") {
+    // Remove Todo
+    Todo.remove(yargs.index)
+    console.log(chalk.redBright("Todo is Deleted"));
+}
+
+if (command == "toggle") {
+    Todo.toggle(yargs.index)
+    console.log(chalk.yellow("Todo Completed status Updated"));
+}
 //TODO
 // --Title
 // --Body
