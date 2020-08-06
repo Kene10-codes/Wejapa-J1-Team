@@ -24,7 +24,8 @@ Create a branch from Master. AlWAYS CREATE YOUR BRANCH FROM MASTER. the branch n
 
 git checkout -b (name-of-branch)
 Aftrer changes have been made  or after you have finished working on the task do:
-git pull upstream master
+
+git pull origin master
 
 Consistently pull from the master branch to avoid not getting your pull request merged and to avoid conflicts. This way you can resolve conflicts from your local computer even before pushing alwyas check whtat branch you are on when making changes.
 	Make your changes, add them and make your commits.
