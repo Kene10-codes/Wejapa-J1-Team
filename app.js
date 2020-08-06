@@ -54,7 +54,22 @@ if (command === "create") {
 
     console.log(chalk.green("Todo is created"));
 }
+if(command === "list"){
 
+    //fetch all data
+    const db = Todo.list();
+
+    //print all data
+    db.forEach((todo, index) => {
+        let completedMessage = todo.completedMessage = todo.completed ? "Completed" : "TODO Not Completed";
+
+        let colorMethod = todo.completed ? "greenBright" : "red";
+
+        console.log(chalk[colorMethod] (`[${index}]: ${todo.title} (${completedMessage})`));
+
+
+    });
+}
 
 
 //TODO
