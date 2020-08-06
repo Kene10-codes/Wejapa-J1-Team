@@ -16,6 +16,11 @@ module.exports ={
         //write TODO to DB file
         this.save(db);
     },
+    //show method
+    show(index){
+        const db = this.list();
+        return db [index];
+    },
     //update Todo completed status
     toggle (index){
         //fetch all data
