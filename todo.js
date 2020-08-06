@@ -16,4 +16,23 @@ module.exports ={
         //write TODO to DB file
         this.save(db);
     },
+    //update Todo completed status
+    toggle (index){
+        //fetch all data
+        const db= this.list();
+
+        //fetch TODO by index
+        const todo =db[index];
+
+        //Reverse TODO completed
+        todo.completed = !todo.completed;
+
+        //sve todo completed
+        this.save(db);
+    },
+
+    //Save Method
+    save(data){
+        fs.writeFileSync("./db.json", JSON.stringify(data));
+    }
 }
