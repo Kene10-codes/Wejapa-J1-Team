@@ -16,11 +16,31 @@ module.exports = {
         //write TODO to DB file
         this.save(db);
     },
+
+    //List Method
+    list() {
+        return JSON.parse(fs.readFileSync("./db.json")); 
+    },
+
     //show method
     show(index) {
         const db = this.list();
         return db[index];
     },
+    
+    //remove method
+    remove(index) {
+        //Fetch data
+        const db = this.list();
+        
+        //Remove TODO by index
+        db.splice(index, 1);
+
+        //Save Data
+        this.save(db);
+    },
+
+
     //update Todo completed status
     toggle(index) {
         //fetch all data
