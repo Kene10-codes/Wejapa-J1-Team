@@ -27,7 +27,7 @@ module.exports = {
         const db = this.list();
         return db[index];
     },
-    
+
     //remove method
     remove(index) {
         //Fetch data
@@ -41,23 +41,24 @@ module.exports = {
     },
 
 
-    //update Todo completed status
+    //Update Todo completed status
     toggle(index) {
-        //fetch all data
+        //Fetch all data
         const db = this.list();
 
-        //fetch TODO by index
+        //Fetch TODO by index
         const todo = db[index];
 
         //Reverse TODO completed
         todo.completed = !todo.completed;
 
-        //sve todo completed
+        //Save todo completed
         this.save(db);
     },
 
     //Save Method
     save(data) {
         fs.writeFileSync("./db.json", JSON.stringify(data));
+
     }
 }
