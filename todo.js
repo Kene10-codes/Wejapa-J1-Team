@@ -7,13 +7,13 @@ module.exports = {
         const db = this.list();
 
 
-        //Create New TODO file
+        //Create New Todo file
         const newTodo = { title, body, completed: false }
 
-        //Merge OLd Data with New Data
+        //Merge Old Data with New Data
         db.push(newTodo);
 
-        //write TODO to DB file
+        //write Todo to DB file
         this.save(db);
     },
 
@@ -33,7 +33,7 @@ module.exports = {
         //Fetch data
         const db = this.list();
         
-        //Remove TODO by index
+        //Remove Todo by index
         db.splice(index, 1);
 
         //Save Data
@@ -46,13 +46,13 @@ module.exports = {
         //Fetch all data
         const db = this.list();
 
-        //Fetch TODO by index
+        //Fetch Todo by index
         const todo = db[index];
 
-        //Reverse TODO completed
+        //Reverse Todo completed
         todo.completed = !todo.completed;
 
-        //Save todo completed
+        //Save Todo completed
         this.save(db);
     },
 
