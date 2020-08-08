@@ -1,8 +1,11 @@
 {
-  "name": "todoapp",
+  "name": "@kene12/todoapp",
   "version": "1.0.0",
   "description": "A Todo Application with NodeJS",
-  "main": "app.js",
+  "main": "bin/app.js",
+  "preferGlobal": true,
+  "bin": {"bin": "bins/app.js"},
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

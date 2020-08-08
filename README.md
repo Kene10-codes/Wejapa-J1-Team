@@ -1,6 +1,34 @@
 # Wejapa-J1-Team
 TODO LIST CLI APPLICATION 
 
+Guide  To Install Node Modules.
+Node modules is a prerequisite to run this application successfully and it did not come with this application because of its large file size. Hence you have to install the node modules.
+
+Steps To Install The Node Modules
+Open your terminal or command prompt
+Locate the directory of your application
+Type npm install node
+Node modules will be installed on your local machine.
+Run the application i.g node app
+
+Methods To Install Dependecies Used Includes
+npm install chalk - Used for to add color(s) to the output(s).
+npm install yargs - Used for parsing arguments and generating appealing user intergace.
+
+
+Thought Process Engaged To Make This App a Reality Inlcudes:
+Firstly, we came together as a team to discuss what a todo list app is.
+After series of opinion from each team member, we unanimously agreed that it is an application that keeps track of written tasks or errands that someone may  want to engage in other accomplish a particular goal.
+After that, we set out to think about the logic that we will use to make the app work just the way we wanted, so we opined to have am app that is able to create tasks(todo), list already created tasks, show individual or single task, update tasks, remove task and indicate if a task was completed or not.
+The momeent, we finished making suggestions on the functionality our app should have, the team lead shared the tasks among each team member. 
+Everyone setted out to accomplish their task. 
+After thorough research, and before we knew what was happening our app was ready!.
+
+Challenges We Faced 
+Had to do thorough research to understand some dependencies to use in the application.
+At some point understanding each others code for compilation was difficult but after the hassle, we later resolved it as a team.
+
+GIT WORKFLOW FOR DEVELOPERS
 
 J1 (Javascript)
 Plese before you push your codes, to the repository make sure you pull from the repository so the changes you have made can be reflected on your local machin, for us to avoid merge conflicts use the the git command line.
