@@ -47,7 +47,7 @@ const Todo = require("./todo");
 //Get command
 const command = yargs._[0];
 
-//If command is crate
+//If command is "create"
 if (command === "create") {
     //Create Todo
     Todo.create(yargs.title, yargs.body);
@@ -72,7 +72,7 @@ if(command === "list"){
 }
 
 if (command === "show") {
-    // Print todo
+    // Print Todo
     console.log((Todo.show(yargs.index)));
 }
 
@@ -86,7 +86,7 @@ if (command == "toggle") {
     Todo.toggle(yargs.index)
     console.log(chalk.yellow("Todo Completed status Updated"));
 }
-//TODO
+//Todo
 // --Title
 // --Body
 // --Completed
