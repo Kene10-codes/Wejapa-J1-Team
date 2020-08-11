@@ -48,7 +48,7 @@ or
 *  git clone repo url
 Make the original Wejapa/J1-Team repo the remote upstream(at upstream)
 git remote add origin https://github.com/wejapa-J1-Team
-Create a branch from Master. AlWAYS CREATE YOUR BRANCH FROM MASTER. the branch name should atleast be meaningful, make sure you have one story per branch(one(1) story === one(1) branch )
+Create a branch from Master. AlWAYS CREATE YOUR BRANCH FROM MASTER. the branch name should atleast be meaningful, make sure you have **one story per branch(one(1) story === one(1) branch)**
 
 * git checkout -b (name-of-branch)
 Aftrer changes have been made  or after you have finished working on the task do:
