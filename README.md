@@ -1,4 +1,4 @@
-# Wejapa-J1-Team
+# Wejapa-J1-Team :earth_africa:
 ### TODO LIST CLI APPLICATION 
 
 ## Guide  To Install Node Modules.
