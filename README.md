@@ -25,8 +25,8 @@ Node modules is a prerequisite to run this application successfully and it did n
 * After thorough research, and before we knew what was happening our app was ready!.
 
 ## :rocket: Challenges We Faced 
-Had to do thorough research to understand some dependencies to use in the application.
-At some point understanding each others code for compilation was difficult but after the hassle, we later resolved it as a team.
+ * Had to do thorough research to understand some dependencies to use in the application.
+ * At some point understanding each others code for compilation was difficult but after the hassle, we later resolved it as a team.
 
 ## :rocket: GIT WORKFLOW FOR DEVELOPERS
 
