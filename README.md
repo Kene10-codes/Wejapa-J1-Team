@@ -7,13 +7,9 @@ Node modules is a prerequisite to run this application successfully and it did n
 ## :rocket: Steps To Install The Node Modules
 * Open your terminal or command prompt
 *  Locate the directory of your application
-*  Type npm install node
+*  Type npm install 
 *  Node modules will be installed on your local machine.
 *  Run the application i.g node app
-
-## :rocket: Methods To Install Dependecies Used Includes
-* npm install chalk - Used for to add color(s) to the output(s).
-* npm install yargs - Used for parsing arguments and generating appealing user intergace.
 
 
 ## :rocket: Thought Process Engaged To Make This App a Reality Inlcudes:
